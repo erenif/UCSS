@@ -69,6 +69,9 @@ public class ProfessorPanel extends JFrame {
         editCourseButton = new JButton("Edit Course");
         deleteCourseButton = new JButton("Delete Course");
         createCourseButton = new JButton("Create Course");
+        openCourseButton.setToolTipText("View and manage students enrolled in this course");
+        createCourseButton.setToolTipText("Add a new course to your teaching list");
+        deleteCourseButton.setToolTipText("Remove the selected course");
         courseActionsPanel.add(openCourseButton);
         courseActionsPanel.add(editCourseButton);
         courseActionsPanel.add(deleteCourseButton);
